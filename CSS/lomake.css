@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e8c0de;
+    margin: 0;
+    padding: 20px;
+
+}
+
+.form-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #c89ec1;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input, textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-row input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #d5dbe0;
+    color: rgb(53, 59, 143);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
