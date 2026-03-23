@@ -14,7 +14,7 @@ html {
 
 body {
   font-family: 'Inter', system-ui, sans-serif;
-  background-color: #a2f2f2;
+  background-color: #d5ffff;
   color: #1f2937;
   line-height: 1.55;
   padding: 1.5rem;
@@ -41,7 +41,7 @@ a:hover {
 }
 
 .container {
-  background: rgb(205, 230, 250);
+  background: rgb(253, 253, 253);
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
   padding: 2rem;
