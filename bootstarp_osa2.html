@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML-opetussivu</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <style>
+        body {
+            padding-top: 70px;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">HTML Kurssi</a>
+        <div>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="https://github.com/Ulrika123/webteknologiat/blob/main/HTML.teht%C3%A4v%C3%A4.css.html">Tehtävä 1</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://github.com/Ulrika123/webteknologiat/blob/main/Lomaketeht%C3%A4v%C3%A4.css..html">Tehtävä 2</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">GitHub</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container">
+
+    <h1 class="mb-4">HTML-sivun perusrakenne</h1>
+
+    <p>HTML koostuu tageista, jotka määrittelevät sivun rakenteen.</p>
+
+    <!-- TAGIT -->
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5>&lt;html&gt;</h5>
+                    <p>Määrittelee koko HTML-dokumentin alun ja lopun.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5>&lt;head&gt;</h5>
+                    <p>Sisältää sivun metatiedot kuten otsikon ja linkitykset.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5>&lt;body&gt;</h5>
+                    <p>Sivun näkyvä sisältö tulee tänne.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5>&lt;p&gt;</h5>
+                    <p>Kappaletekstiä varten.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5>&lt;img&gt;</h5>
+                    <p>Kuvan lisääminen sivulle.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5>&lt;a&gt;</h5>
+                    <p>Linkkien luomiseen.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5>&lt;br&gt;</h5>
+                    <p>Rivinvaihto ilman uutta kappaletta.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5>&lt;h1&gt;</h5>
+                    <p>Suurin otsikkotaso.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <h2 class="mt-5">CSS-muotoilu</h2>
+    <p>
+        CSS:llä määritellään sivun ulkoasu. Esimerkiksi värit, fontit ja asettelu.
+    </p>
+
+<pre>
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: blue;
+}
+</pre>
+
+    <p>
+        CSS voidaan lisätä:
+        <br> - suoraan HTML-tiedostoon (&lt;style&gt;)
+        <br> - erilliseen .css-tiedostoon
+    </p>
+
+    <!-- BOOTSTRAP -->
+    <h2 class="mt-5">Bootstrap</h2>
+    <p>
+        Bootstrap on valmis CSS-kirjasto, joka helpottaa sivujen tekemistä.
+        Se sisältää valmiita komponentteja kuten:
+    </p>
+
+    <ul>
+        <li>Navbar (ylävalikko)</li>
+        <li>Card (kortti)</li>
+        <li>Grid-järjestelmä (asettelu)</li>
+    </ul>
+
+    <p>
+        Bootstrap lisätään sivulle linkittämällä sen CSS-tiedosto &lt;head&gt;-osioon.
+    </p>
+
+    <!-- ESIMERKKI -->
+    <h2 class="mt-5">Esimerkki</h2>
+
+    <p>Tässä kuva ja linkki:</p>
+
+    <img src="https://via.placeholder.com/150" class="img-fluid" alt="esimerkkikuva">
+
+    <p>
+        <a href="https://www.w3schools.com" target="_blank">Lisää HTML-opetusta</a>
+    </p>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <p>HTML-opetussivu © 2026</p>
+</footer>
+
+</body>
+</html>
