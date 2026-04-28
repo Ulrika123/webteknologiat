@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/kartta.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <iframe id="map-frame" src="" width="100%" height="100%" frameBorder="0">
+    </iframe>
+    
+    <div class="button d-flex justify-content-center">
+        <div class="d-grid gap-2 d-md-block">
+            <button class="btn btn-primary" type="button" onclick="ShowMap()">Etsi Osoite</button>
+
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label for="searchAddress" class="form-label">Katuosoite</label>
+        <input type="text" id="searchAddress" class="form-control" placeholder="Syötä osoite">
+    </div>
+
+    <div class="mb-3">
+        <label for="searchCity" class="form-label">Kaupunki</label>
+        <input type="text" id="searchCity" class="form-control" placeholder="Syötä kaupunki">
+    </div>
+
+
+    <script src="js/kartta.js"></script>
+
+
+
+
+</body>
+
+</html>

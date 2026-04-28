@@ -1,0 +1,15 @@
+.container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.list-container {
+    display: block;
+}

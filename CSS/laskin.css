@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.container {
+   width: 450px;
+   margin: 60px auto;
+   text-align: center;
+}
+
+.inputs {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 6px;
+margin-bottom: 15px;
+}
+    
+button {
+    padding: 4px 8px;
+}
+
+#calcBtn {
+    background-color: #007bff;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#calcBtn:hover {
+    background-color: #0069d9;
+}
+
+#resultBox {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    width: 120px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#historyBox {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.bi-calculator {
+    color: green !important;
+    font-size: 40px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+fieldset {
+    border: 2px solid #ccc;
+    padding: 2opx;
+    border-radius: 6px;
+
+}
+
+legend {
+    font-size: 22px;
+    font font-weight: bold;
+}
+
