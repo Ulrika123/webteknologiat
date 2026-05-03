@@ -1,0 +1,9 @@
+img {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+
+.container {
+  margin-left: 220px;
+}
